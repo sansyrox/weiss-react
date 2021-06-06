@@ -1,0 +1,74 @@
+@import "fonts";
+
+// Main Styles
+body {
+  font-family: "DIN Pro";
+}
+
+.wrapper {
+  max-width: 1216px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 64px;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .logo {
+    width: 135px;
+    height: 40px;
+  }
+  .menu {
+    margin: 0;
+    padding: 0;
+    max-width: 316px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-between;
+    li {
+      .active {
+        color: #FF9900;
+        &:after {
+          content: '';
+          width: 71px;
+          height: 2px;
+          display: block;
+          background: #FF9900;
+        }
+      }
+      a {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 40px;
+        text-decoration: none;
+
+        color: #263640;
+      }
+    }
+  }
+  .button {
+    width: 145px;
+    height: 40px;
+
+    gap: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 40px;
+    text-decoration: none;
+
+    color: #FFFFFF;
+    background: #FF9900;
+  }
+}
+
