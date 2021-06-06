@@ -231,3 +231,89 @@ body {
     }
   }
 }
+
+// History Section Styles
+.history {
+  background: linear-gradient(to bottom, #F5F8FA 65%, #FFFFFF 35%);
+  margin-bottom: 256px;
+}
+
+.history__container {
+  position: relative;
+}
+
+.history__text {
+  width: 1009px;
+  height: 584px;
+
+  background: #263640;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.2), -50px 100px 0px #F5F8FA;
+  .container {
+    width: 494px;
+    height: 412px;
+    padding: 98px 0 0 98px;
+    .subtitle {
+      margin: 0;
+      padding-bottom: 24px;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+
+      color: #929A9F;
+    }
+    .title {
+      width: 494px;
+      margin: 0;
+      padding-bottom: 24px;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 44px;
+
+      color: #FFFFFF;
+    }
+    .desc {
+      width: 422px;
+      height: 104px;
+      margin: 0;
+      padding-bottom: 56px;
+
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+
+      color: #FFFFFF;
+    }
+    .line {
+      width: 100%;
+      height: 1px;
+      margin-bottom: 24px;
+      display: block;
+      opacity: 0.2;
+      background: #FFFFFF;
+    }
+    .link {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 28px;
+      text-decoration: none;
+
+      color: #FFFFFF;
+      img {
+        padding-left: 8px;
+      }
+    }
+  }
+}
+
+.history__image {
+  position: absolute;
+  top: 98px;
+  right: 0;
+  img {
+    width: 488px;
+    height: 662px;
+    filter: drop-shadow(0px 10px 50px rgba(0, 0, 0, 0.2));
+  }
+}
