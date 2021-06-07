@@ -10,7 +10,7 @@ import serviceImg2 from '../img/service-image-2.png';
 import serviceImg3 from '../img/service-image-3.png';
 import arrowRightOrange from '../img/arrow-right-orange.svg';
 import historyImage from '../img/history-image.png';
-
+import careerImage from '../img/career-image.png';
 
 function Home() {
     return (
@@ -78,7 +78,7 @@ function Home() {
                                     <h4 className="subtitle">Unsere Firmenhistorie</h4>
                                     <h3 className="title">Diplom-Ingenieur Dieter Weiss gründete im Jahre 1971 sein Ingenieurbüro.</h3>
                                     <p className="desc">Fast 30 Jahre lang führte er es als Alleininhaber. 1998 trat Sohn Klaus weiss als Stellvertreter an die Seite seines Vaters. Seit 2006 ist Diplom-Ingenieur Klaus Weiss alleiniger Geschäftsführer</p>
-                                    <span className="line"></span>
+                                    <span className="line"/>
                                     <Link to="/" className="link">Lesen Sie weiter <img src={arrowRightWhite} alt="arrowRight"/></Link>
                                 </div>
                             </div>
@@ -115,6 +115,17 @@ function Home() {
                                 <Link to="/">Lesen Sie weiter <img src={arrowRightOrange} alt="arrowRight"/></Link>
                             </div>
                         </div>
+                    </div>
+                </section>
+                <section className="career">
+                    <div className="career__container">
+                        <div className="career__text">
+                            <h4 className="subtitle">Mach Karriere bei uns</h4>
+                            <h3 className="title">Bewirb dich bei uns</h3>
+                            <p className="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+                            <Link to="/" className="button">Karriere <img src={arrowRightWhite} alt="arrowRight"/></Link>
+                        </div>
+                        <img src={careerImage} className="career__image" alt="Bewirb dich bei uns"/>
                     </div>
                 </section>
             </main>
