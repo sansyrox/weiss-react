@@ -44,52 +44,79 @@ function Home() {
                         </div>
                     </div>
                 </section>
-                <div className="service-and-history">
-                    <section className="service">
-                        <div className="wrapper">
-                            <h2 className="service__title">Unsere Dienstleistungen</h2>
-                            <p className="service__desc">Dienstleistung ist für unsere Mitarbeiter Herausforderung, das ist die Stärke unseres Teams. Ganz gleich, ob Verkehrsplanungen, Ver- und Ent­sorgung, Lärmschutz oder Spezialgebiete – wir bieten Rundum-Service mit:</p>
-                            <div className="service__container">
-                                <div className="service__item">
-                                    <img src={serviceImg1} className="preview" alt="Studien und Konzepte, Gesamtplanung"/>
-                                    <h3>Studien und Konzepte, Gesamtplanung</h3>
-                                    <p>Neubau und Ausbau von Straßen, Verkehrsflächen, Wasserwegen und Eisenbahnen erfordert überzeugende Verkehrskonzepte.</p>
-                                    <Link to="/">Erfahren Sie mehr <img src={arrowRightOrange} alt="arrowRight"/></Link>
-                                </div>
-                                <div className="service__item">
-                                    <img src={serviceImg2} className="preview" alt="Verkehrsanlagen und Ingenieurbauwerke"/>
-                                    <h3>Verkehrsanlagen und Ingenieurbauwerke</h3>
-                                    <p>Verkehrskonzepte sind ein entscheidender Faktor jeglicher Infrastruktur. Das Ingenieurbüro Weiss hat deshalb ein Expertenteam aufgebaut.</p>
-                                    <Link to="/">Erfahren Sie mehr <img src={arrowRightOrange} alt="arrowRight"/></Link>
-                                </div>
-                                <div className="service__item">
-                                    <img src={serviceImg3} className="preview" alt="Entwurfsvermessung, 3D-Laserscanning"/>
-                                    <h3>Entwurfsvermessung, 3D-Laserscanning</h3>
-                                    <p>Bei Ausführung sämtlicher vermessungstechnischer Aufgaben im Leistungsbild „Entwurfsvermessung“ sind wir ein leistungsstarker Partner.</p>
-                                    <Link to="/">Erfahren Sie mehr <img src={arrowRightOrange} alt="arrowRight"/></Link>
-                                </div>
+                <section className="service">
+                    <div className="wrapper">
+                        <h2 className="service__title">Unsere Dienstleistungen</h2>
+                        <p className="service__desc">Dienstleistung ist für unsere Mitarbeiter Herausforderung, das ist die Stärke unseres Teams. Ganz gleich, ob Verkehrsplanungen, Ver- und Ent­sorgung, Lärmschutz oder Spezialgebiete – wir bieten Rundum-Service mit:</p>
+                        <div className="service__container">
+                            <div className="service__item">
+                                <img src={serviceImg1} className="preview" alt="Studien und Konzepte, Gesamtplanung"/>
+                                <h3>Studien und Konzepte, Gesamtplanung</h3>
+                                <p>Neubau und Ausbau von Straßen, Verkehrsflächen, Wasserwegen und Eisenbahnen erfordert überzeugende Verkehrskonzepte.</p>
+                                <Link to="/">Erfahren Sie mehr <img src={arrowRightOrange} alt="arrowRight"/></Link>
+                            </div>
+                            <div className="service__item">
+                                <img src={serviceImg2} className="preview" alt="Verkehrsanlagen und Ingenieurbauwerke"/>
+                                <h3>Verkehrsanlagen und Ingenieurbauwerke</h3>
+                                <p>Verkehrskonzepte sind ein entscheidender Faktor jeglicher Infrastruktur. Das Ingenieurbüro Weiss hat deshalb ein Expertenteam aufgebaut.</p>
+                                <Link to="/">Erfahren Sie mehr <img src={arrowRightOrange} alt="arrowRight"/></Link>
+                            </div>
+                            <div className="service__item">
+                                <img src={serviceImg3} className="preview" alt="Entwurfsvermessung, 3D-Laserscanning"/>
+                                <h3>Entwurfsvermessung, 3D-Laserscanning</h3>
+                                <p>Bei Ausführung sämtlicher vermessungstechnischer Aufgaben im Leistungsbild „Entwurfsvermessung“ sind wir ein leistungsstarker Partner.</p>
+                                <Link to="/">Erfahren Sie mehr <img src={arrowRightOrange} alt="arrowRight"/></Link>
                             </div>
                         </div>
-                    </section>
-                    <section className="history">
-                        <div className="wrapper">
-                            <div className="history__container">
-                                <div className="history__text">
-                                    <div className="container">
-                                        <h4 className="subtitle">Unsere Firmenhistorie</h4>
-                                        <h3 className="title">Diplom-Ingenieur Dieter Weiss gründete im Jahre 1971 sein Ingenieurbüro.</h3>
-                                        <p className="desc">Fast 30 Jahre lang führte er es als Alleininhaber. 1998 trat Sohn Klaus weiss als Stellvertreter an die Seite seines Vaters. Seit 2006 ist Diplom-Ingenieur Klaus Weiss alleiniger Geschäftsführer</p>
-                                        <span className="line"></span>
-                                        <Link to="/" className="link">Lesen Sie weiter <img src={arrowRightWhite} alt="arrowRight"/></Link>
-                                    </div>
-                                </div>
-                                <div className="history__image">
-                                    <img src={historyImage} alt="Diplom-Ingenieur Dieter Weiss gründete im Jahre 1971 sein Ingenieurbüro."/>
+                    </div>
+                </section>
+                <section className="history">
+                    <div className="wrapper">
+                        <div className="history__container">
+                            <div className="history__text">
+                                <div className="container">
+                                    <h4 className="subtitle">Unsere Firmenhistorie</h4>
+                                    <h3 className="title">Diplom-Ingenieur Dieter Weiss gründete im Jahre 1971 sein Ingenieurbüro.</h3>
+                                    <p className="desc">Fast 30 Jahre lang führte er es als Alleininhaber. 1998 trat Sohn Klaus weiss als Stellvertreter an die Seite seines Vaters. Seit 2006 ist Diplom-Ingenieur Klaus Weiss alleiniger Geschäftsführer</p>
+                                    <span className="line"></span>
+                                    <Link to="/" className="link">Lesen Sie weiter <img src={arrowRightWhite} alt="arrowRight"/></Link>
                                 </div>
                             </div>
+                            <div className="history__image">
+                                <img src={historyImage} alt="Diplom-Ingenieur Dieter Weiss gründete im Jahre 1971 sein Ingenieurbüro."/>
+                            </div>
                         </div>
-                    </section>
-                </div>
+                    </div>
+                </section>
+                <section className="faq">
+                    <div className="wrapper">
+                        <div className="faq__header">
+                            <div className="text">
+                                <h3>Wissenswertes</h3>
+                                <p>Integer massa urna, senectus maecenas in dapibus urna amet hendrerit. In ipsum, morbi amet aenean. Iaculis donec sem nullam nunc condimentum nisl non gravida in. </p>
+                            </div>
+                            <Link to="/" className="button">Unser Blog <img src={arrowRightWhite} alt="arrowRight"/></Link>
+                        </div>
+                        <h3 className="blog-title">Unsere Letzten Beiträge</h3>
+                        <div className="blog-container">
+                            <div className="blog-item">
+                                <h4>Sed eget morbi cursus elit ipsum pellentesque</h4>
+                                <p>Pellentesque mauris arcu nec gravida amet nec. Duis senectus cras semper cursus bibendum phasellus vehicula porttitor...</p>
+                                <Link to="/">Lesen Sie weiter <img src={arrowRightOrange} alt="arrowRight"/></Link>
+                            </div>
+                            <div className="blog-item">
+                                <h4>Urna velit semper faucibus ac suspendisse et</h4>
+                                <p>In nibh sodales tincidunt vitae tortor. Turpis aliquam mattis eget cursus bibendum interdum vestibulum, aliquam. Fringilla malesuada...</p>
+                                <Link to="/">Lesen Sie weiter <img src={arrowRightOrange} alt="arrowRight"/></Link>
+                            </div>
+                            <div className="blog-item">
+                                <h4>Bibendum augue imperdiet sapien quis enim elementum</h4>
+                                <p>Facilisi id mus at pulvinar vitae, ornare vitae scelerisque. Lacus egestas augue cursus aliquam nulla. Sed erat a scelerisque neque...</p>
+                                <Link to="/">Lesen Sie weiter <img src={arrowRightOrange} alt="arrowRight"/></Link>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </main>
         </div>
     );
