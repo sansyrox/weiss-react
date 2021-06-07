@@ -11,6 +11,7 @@ import serviceImg3 from '../img/service-image-3.png';
 import arrowRightOrange from '../img/arrow-right-orange.svg';
 import historyImage from '../img/history-image.png';
 import careerImage from '../img/career-image.png';
+import logoWhite from '../img/logo-white.svg';
 
 function Home() {
     return (
@@ -129,6 +130,29 @@ function Home() {
                     </div>
                 </section>
             </main>
+            <footer className="footer">
+                <div className="wrapper">
+                    <div className="footer__container">
+                        <img src={logoWhite} alt="Weiss"/>
+                        <div className="footer__text">
+                            <div className="footer__text_submitted">
+                                <h4>Geschäftsführer</h4>
+                                <Link to="/">Beratender Ingenieur<br/>Dipl.-Ing. Klaus Weiss</Link>
+                            </div>
+                            <div className="footer__text_submitted">
+                                <h4>Adresse</h4>
+                                <Link to="/">Straßenname 7<br/>12345 Stadt</Link>
+                            </div>
+                        </div>
+                    </div>
+                    <span className="footer__line"/>
+                    <div className="footer__links">
+                        <Link to="/">Impressum</Link>
+                        <span>|</span>
+                        <Link to="/">Datenschutz</Link>
+                    </div>
+                </div>
+            </footer>
         </div>
     );
 }
